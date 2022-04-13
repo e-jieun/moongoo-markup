@@ -1,0 +1,28 @@
+#root #con > div:nth-child(1), #root #con > div:nth-child(2) {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root #con {
+  width: inherit;
+  height: inherit;
+}
+
+#root #con > div:nth-child(1), #root #con > div:nth-child(2) {
+  border: 5px solid #000;
+}
+
+#root #con > div:nth-child(1), #root #con > div:nth-child(2) {
+  border: 1px solid red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 200vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=moongoo-style.css.map */
