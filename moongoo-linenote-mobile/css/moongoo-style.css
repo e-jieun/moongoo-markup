@@ -125,6 +125,8 @@
 #root #con > div:nth-child(1) > div > div:nth-child(2) ul li {
   width: 30vw;
   height: 30vw;
+  max-width: 150px;
+  max-height: 150px;
   background-color: #fff;
 }
 

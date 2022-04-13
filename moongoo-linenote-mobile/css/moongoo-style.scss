@@ -89,6 +89,9 @@ $per-100: 100%;
             @extend %flex-column;
             li{
               @include width-height(30vw, 30vw);
+              // 최대 크기 설정
+              max-width: 150px;
+              max-height: 150px;
               background-color: #fff;
               @extend %circle;
               @extend %flex-center-center;
